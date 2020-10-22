@@ -1,4 +1,4 @@
-package com.poo.lesson11uik2animation;
+package com.poo.lesson11uik2animation.animation;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.poo.lesson11uik2animation.R;
 
 public class myToast {
     private Toast mToast;

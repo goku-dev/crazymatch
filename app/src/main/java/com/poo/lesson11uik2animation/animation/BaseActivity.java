@@ -1,4 +1,4 @@
-package com.poo.lesson11uik2animation;
+package com.poo.lesson11uik2animation.animation;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,6 +7,8 @@ import android.view.animation.AnimationUtils;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.poo.lesson11uik2animation.R;
 
 public abstract class BaseActivity extends AppCompatActivity implements Animation.AnimationListener, View.OnClickListener {
     private Animation mAnim;
@@ -38,6 +40,7 @@ public abstract class BaseActivity extends AppCompatActivity implements Animatio
     }
 
     protected void clickView(int mAnim) {
+
     }
 
     @Override
